@@ -127,51 +127,56 @@ SecureAuth/
 
 # 🚀 Installation
 
-Clone the repository
+Follow these steps to set up SecureAuth locally.
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Abhinavjs903/Secure_auth.git
 ```
 
-Go to the server
+### 2. Open the project directory
+
+```bash
+cd Secure_auth
+```
+
+### 3. Go to the server directory
 
 ```bash
 cd server
 ```
 
-Install dependencies
+### 4. Install server dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file using `.env.example`.
+### 5. Configure environment variables
 
-Start the server
+Create a `.env` file inside the `server` directory using `.env.example` as a reference.
+
+Add the required values for:
+
+* `PORT`
+* `MONGO_URI`
+* `JWT_SECRET`
+* `EMAIL_USER`
+* `EMAIL_PASS`
+
+Keep your actual credentials and secrets private. Do not commit your `.env` file to GitHub.
+
+### 6. Start the backend server
 
 ```bash
 npm run dev
 ```
 
-Open the frontend using Live Server or deploy it to Vercel.
+### 7. Open the frontend
 
----
+Open the frontend files from the `client` directory using a local development server such as Live Server, or deploy the frontend to Vercel.
 
-# 🔑 Environment Variables
-
-```env
-PORT=
-
-MONGO_URI=
-
-JWT_SECRET=
-
-EMAIL_USER=
-
-EMAIL_PASS=
-```
-
----
 
 # 📸 Screenshots
 
